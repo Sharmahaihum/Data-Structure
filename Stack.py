@@ -1,25 +1,19 @@
 class Stack:
     def __init__(self):
-        # Initialize an empty stack
         self.items = []
 
     def push(self, item):
-        # Add an item to the top of the stack
         self.items.append(item)
 
     def pop(self):
-        # Remove and return the item at the top of the stack
         return self.items.pop()
 
     def peek(self):
-        # Return the item at the top of the stack without removing it
         return self.items[-1]
 
     def is_empty(self):
-        # Return True if the stack is empty, False otherwise
         return not self.items
     def display(self):
-        # Print the items in the stack
         for item in self.items:
             print(item)
 
@@ -65,3 +59,7 @@ while True:
     else:
         print('Invalid choice. Enter a number between 1 and 6.')
     print()
+
+    
+    
+    # This Code is Made by Shashwat Sharma
