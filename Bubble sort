@@ -1,8 +1,0 @@
-l1=[5,3,7,8,2,1]
-length=len(l1)
-print("Original:",l1)
-for i in range(length-1):
-    for j in range(length-1):
-        if l1[j]>l1[j+1]:
-            l1[j],l1[j+1]=l1[j+1],l1[j]
-print("Sorted:",l1)
