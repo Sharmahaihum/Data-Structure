@@ -25,7 +25,11 @@ def merge(list):
             j=j+1
             k=k+1
 
-list=[12,52,54,98,7,87]
+list=[]
+limit=int(input("Enter size of list"))
+    for i in range (limit):
+        a=input()
+        list.append(a)
 print("before sorting:",list)
 merge(list)
 print("After sorting ",list)
